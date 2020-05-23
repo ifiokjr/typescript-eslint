@@ -51,6 +51,12 @@ module.exports = {
       { varsIgnorePattern: '^_', argsIgnorePattern: '^_' },
     ],
 
+    'no-empty-function': 'off',
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      { allow: ['arrowFunctions'] },
+    ],
+
     // TODO - enable these new recommended rules
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/no-unsafe-assignment': 'off',
