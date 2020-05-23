@@ -9,4 +9,6 @@ export {
   AST_TOKEN_TYPES,
   TSESTree,
 } from '@typescript-eslint/typescript-estree/dist/ts-estree';
+export { simpleTraverse } from '@typescript-eslint/typescript-estree/dist/simple-traverse';
+export { visitorKeys } from '@typescript-eslint/typescript-estree/dist/visitor-keys';
 export { ParserServices } from '@typescript-eslint/typescript-estree/dist/parser-options';

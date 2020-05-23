@@ -45,6 +45,11 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/unbound-method': 'off',
+    '@typescript-eslint/prefer-as-const': 'error',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      { varsIgnorePattern: '^_', argsIgnorePattern: '^_' },
+    ],
 
     // TODO - enable these new recommended rules
     '@typescript-eslint/no-floating-promises': 'off',
